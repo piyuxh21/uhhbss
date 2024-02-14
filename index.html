@@ -26,6 +26,7 @@
                 <div class="img3"><a href="#"><img src="./pic/icons8-instagram-50.png" alt=""></a></div>
 
             </div>
+            <img src="pic/menu.png" class="menu-icon" onclick="menutoggle()">
         </nav>
     </main>
 
@@ -35,7 +36,7 @@
             <span id="element"></span>
         </div>
     </div>
-
+    <!-- ------------ -->
     <div id="container-main">
         <h1>Causes we are serving</h1>
         <div class="conatiner-sub-main">
@@ -70,7 +71,7 @@
                 <h2>Help Senior Citizens</h2>
                 <div class="goal">
                     <p>Rs 5,00,000</p>
-                    <p>Rs 5,00,000</p>
+                    <p>Rsrtpara 5,00,000</p>
                 </div>
                 <div class="goalp">
                     <p>Goal</p>
@@ -85,20 +86,23 @@
 
     <div id="support">
         <div class="support">
-            <img src="./pic/about.jpg">
-            <div class="supportpara">
-                <h2>who we are?</h2>
-                <h3>Save the Children has transformed the lives of over 14 million children since its establishment.
-                </h3>
-                <p>The legal definition of a charitable organization (and of charity) varies between countries and in
-                    some instances regions of the country. The regulation, the tax treatment, and the way in which
-                    charity law affects charitable organizations also vary.
-                </p>
+            <img src="./pic/whoimg.jpg" id="whoimg">
+            <div class="support-sec">
+                <h2>Who we are?
+                    <h3>Save the Children has transformed the lives of over 14 <br>million children since its establishment.
+                    </h3>
+                    <p>
+                        The legal definition of a charitable organization (and of <br>charity) varies between countries and
+                        in some instances <br> regions of the country. The regulation, the tax treatment, and the way in
+                        which charity law affects charitable organizations also vary.
+                    </p>
+                </h2>
 
                 <button id="btn">Learn more</button>
             </div>
         </div>
     </div>
+
 
     <!-- --------------end------------------- -->
 
@@ -143,27 +147,24 @@
         <div class="serve2">
             <div class="subserve">
                 <img src="./pic/services1.svg">
-                <h2>Help Senior Citizens</h2>
-                <div class="servep">
+                <h2>Help Senior Citizens
                     <p>We’re on a mission to bring clean and safe water to <br> every person on the planet.</p>
-                </div>
-            </div>
-
-            <div class="subserve">
-                <img src="./pic/services2.svg">
-                <h2>Help Senior Citizens</h2>
-                <div class="servep">
-                    <p>Our Foundation Since urban slum dwellers lack the <br>education to be aware of diseases and
-                        healthcare.</p>
-                </div>
+                </h2>
             </div>
             <div class="subserve">
                 <img src="./pic/services1.svg">
-                <h2>Help Senior Citizens</h2>
-                <div class="servep">
-                    <p>Our aim is to make everyone educated in this <br>world.</p>
-                </div>
+                <h2>Help Senior Citizens
+                    <p>We’re on a mission to bring clean and safe water to <br> every person on the planet.</p>
+                </h2>
             </div>
+            <div class="subserve">
+                <img src="./pic/services1.svg">
+                <h2>Help Senior Citizens
+                    <p>We’re on a mission to bring clean and safe water to <br> every person on the planet.</p>
+                </h2>
+            </div>
+
+            
         </div>
     </div>
 
@@ -216,7 +217,7 @@
             </ul>
         </div>
 
-        <div class="footer-section">
+        <div class="footer-sec">
             <h2>Navigation</h2>
             <div id="footer-sub">
                 <input type="email" name="email" id="email" placeholder="enter your email" required>
@@ -259,8 +260,7 @@
         });
 
     </script>
-
-
+    <!-- ---------------- -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
@@ -269,6 +269,22 @@
         });
     </script>
 
+    <!-- -------menu js--------- -->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
 </body>
 
 </html>
