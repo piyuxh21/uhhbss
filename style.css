@@ -487,7 +487,7 @@ p {
 #joining {
   /* background-color: rgb(236, 236, 249); */
   border-radius: 5px;
-  background-color: gold;
+  /* background-color: gold; */
   height: 85vh;
   width: 100%;
   margin-top: 20vh;
@@ -510,7 +510,7 @@ p {
 
 .joiningpara {
   padding: 20px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .joiningpara h2 {
@@ -535,7 +535,7 @@ p {
 /* ------footer------ */
 
 footer {
-  background-color: #37dc00;
+  /* background-color: #37dc00; */
   color: white;
   height: 30vh;
   width: 100%;
@@ -546,7 +546,7 @@ footer {
 
 .footer-section {
   text-align: center;
-  background-color: red;
+  /* background-color: red; */
   overflow: hidden;
 }
 
@@ -567,7 +567,7 @@ footer p {
   padding-top: 30px;
   font-size: 16px;
   font-weight: 200;
-  background: #000;
+  /* background: #000; */
 }
 
 /* #footer-sub {
