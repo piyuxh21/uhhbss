@@ -7,11 +7,11 @@
   list-style-type: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-main{
+main {
   overflow: hidden;
   background-color: #ffdcdc;
   position: sticky;
@@ -19,11 +19,12 @@ main{
   width: 100%;
   z-index: 1000;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 40px;
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
   padding-top: 20px;
   color: black;
   /* background-color: rgb(36, 8, 8); */
@@ -76,6 +77,12 @@ nav img {
     background: #000;
 } */
 
+.menu-icon {
+  width: 26px;
+  margin-left: 7px;
+  display: none;
+}
+
 #links {
   display: flex;
 }
@@ -105,8 +112,11 @@ nav img {
 }
 
 #container-main {
-  /* background-color: red; */
-  margin-top: 30vh;
+  /* background-color:blue; */
+  /* flex: 1; */
+  width: 100%;
+  height: 100vh;
+  margin-top: 20vh;
 }
 
 #container-main h1 {
@@ -121,21 +131,27 @@ nav img {
   height: 80vh;
 }
 
-#services {
+/* #services {
   background-color: blue;
 }
 
 #services img {
   width: 400px;
-}
+} */
 
 .card {
   width: 300px;
+  overflow: hidden;
+  /* flex: 1; */
+  flex-direction: column;
+  height: 360px;
   padding: 20px;
   border-radius: 10px;
+  /* background: yellow; */
   background-color: #f0f0f0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
   text-align: center;
+  /* gap: 100px; */
 }
 
 h2 {
@@ -155,6 +171,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
 .goalp {
   margin-top: -15px;
   display: flex;
@@ -167,14 +184,14 @@ p {
 
 /* css of about */
 
-#container{
-/*   background-color: gold; */
+#container {
+  /* background-color: gold; */
   background-image: url(./pic/bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
+
 .subcontainer {
   /* background-color:blueviolet; */
   text-align: center;
@@ -219,6 +236,7 @@ p {
   /* background: #000; */
   width: 30%;
 }
+
 #about h1 {
   /* font-family: "Open Sans", sans-serif; */
   font-size: 20px;
@@ -234,12 +252,13 @@ p {
 }
 
 #container3 {
-/*   background-color: red; */
+  background-color: red;
   width: 100%;
   height: 70vh;
 }
+
 #subconatiner {
-/*   background-color: red; */
+  /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -257,134 +276,140 @@ p {
 
 /* ----------services--------------- */
 
-.support {
-  display: flex;
-  /* background-color: red; */
-  padding-top: 12vh;
-  justify-content: space-between;
-  width: auto;
-}
-
 #support {
   /* background-color: rgb(236, 236, 249); */
-  /* background-color: red; */
   border-radius: 5px;
-  height: 100vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  background-color: gold;
+  height: 85vh;
+  width: 100%;
   margin-top: 20vh;
   margin-bottom: 10vh;
+  overflow: hidden;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 
-.support img {
-  width: 400px;
-  padding-left: 10px;
-  border-radius: 5px;
+.support {
+  display: flex;
+  padding-top: 12vh;
+  /* justify-content: space-between; */
+  /* width: 100%;
+  height: 100vh; */
+  background-color: blue;
+  /* overflow: hidden; */
+  padding-right: 20px;
 }
 
-.supportpara {
+#whoimg{
+  width: 600px;
+  height: auto;
+  padding-left: 20px;
+}
+
+
+.support-sec {
   /* background-color: blue; */
-  margin-left: 140px;
-  margin-right: 40px;
+  padding-left: 50px;
+  text-align: start;
+  flex-wrap: nowrap;
 }
 
-.supportpara h2 {
+.support-sec h2 {
   font-size: 40px;
 }
 
-.supportpara p {
-  margin-top: 40px;
+.support-sec p {
+  margin-top: 20px;
   font-size: 20px;
+  text-align: center;
+  /* background-color: red; */
+  text-align: start;
+  /* width: 35vw; */
 }
-.supportpara h3 {
+
+.support-sec h3 {
   margin-top: 40px;
   font-size: 20px;
   font-weight: 300;
 }
 
-#btn {
-  margin-top: 50px;
-  font-weight: 500;
-  font-size: 16px;
-  background: rgb(239, 79, 79);
-  width: 135px;
-  height: 45px;
-  color: #f0f0f0;
-  border: none;
-  border-radius: 27px;
-}
 
-#btn:hover {
-  background: red;
-}
+
 
 /* ---counter css----- */
+
+#counter {
+  display: flex;
+  background-image: url(./pic/counter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10vh;
+}
 
 .counter {
   font-size: 36px;
   text-align: center;
   margin-top: 50px;
+  overflow: hidden;
   /* background-color: red; */
-}
-
-#counter {
-  background-image: url(./pic/counter.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  /* width */
-/*   background-color: gold; */
-  height: 30vh;
-  margin-left: 10vh;
-  margin-bottom: 10vh;
-  margin-right: 10vh;
-  justify-content: space-around;
 }
 
 .coun1 {
-  /* background-color: red; */
+  /* background: red; */
+  width: 100%;
+  height: 40vh;
+  justify-content: space-evenly;
   display: flex;
+  overflow: hidden;
 }
 
 .coun1 img {
-  width: 11vh;
-  margin-right: 9px;
+  width: 50px;
+  margin-bottom: 40px;
 }
 
-
+.subcoun h3 {
+  text-align: center;
+  margin-top: 10px;
+}
 
 /* ----serve---- */
 
-#serve{
-  /* background: darkblue; */
+#serve {
+  /* background: gold; */
   height: 85vh;
+  width: 100%;
   margin-top: 20vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  /* overflow: hidden; */
 }
 
-
-#serve h1{
+#serve h1 {
   text-align: center;
   font-size: 40px;
   padding-top: 40px;
   font-weight: 800;
 }
 
-
-.serve2{
-  display:flex;
+.serve2 {
+  display: flex;
   justify-content: space-evenly;
   /* background: blue; */
   margin-top: 30px;
+  overflow: hidden;
   height: 50vh;
+  gap: 30px;
+  width: 100%;
 }
 
-.subserve img{
+.subserve img {
   margin-left: 90px;
 }
 
+.subserve {
+  /* background: red; */
+  overflow: hidden;
+}
 
 .subserve h2 {
   /* color: #f0f0f0; */
@@ -393,14 +418,14 @@ p {
   font-weight: 500;
 }
 
-.servep p{
+.servep p {
   text-align: center;
   font-size: 17px;
 }
 
-/* -----end of the service--- */
+/* -----end of the serve--- */
 
-#help{
+#help {
   margin-top: 20vh;
   /* background-color:red; */
   height: 90vh;
@@ -411,30 +436,29 @@ p {
   background-position: center;
 }
 
-
 .helpcard {
   background: #fffdfd;
   height: 50vh;
   width: 80vh;
-  border-radius:9px;
+  border-radius: 9px;
   float: right;
   margin-top: 20vh;
-  margin-right: 20vh;
+  margin-right: 10vh;
 }
 
-.helpcard h1{
+.helpcard h1 {
   padding-left: 20px;
   padding-top: 16px;
   font-weight: 400;
   font-size: 38px;
 }
-.helpcard p{
+
+.helpcard p {
   margin: 20px;
   padding-top: 20px;
   font-size: 16px;
   text-align: start;
   font-weight: 300;
-  
 }
 
 #donatebtn {
@@ -449,7 +473,7 @@ p {
   border-radius: 27px;
 }
 
-#donatebtn a{
+#donatebtn a {
   color: #ffff;
 }
 
@@ -457,45 +481,36 @@ p {
   background: red;
 }
 
-
 /* -----------end---------
 */
-
-.joining {
-  display: flex;
-  /* background-color: red; */
-  padding-top: 12vh;
-  justify-content: space-evenly;
-  width: auto;
-  /* background-color: blue; */
-}
 
 #joining {
   /* background-color: rgb(236, 236, 249); */
   border-radius: 5px;
-  /* background-color: red; */
-  height: 90vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  background-color: gold;
+  height: 85vh;
+  width: 100%;
   margin-top: 20vh;
   margin-bottom: 10vh;
+  overflow: hidden;
+}
+
+.joining {
+  display: flex;
+  padding-top: 12vh;
+  justify-content: space-evenly;
 }
 
 .joining img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 240px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 10px;
-  /* background-color:black; */
+  border-radius: 4px;
 }
 
 .joiningpara {
-  /* background-color: blue; */
-  padding-left: 50px;
-  width: 40vw;
-  margin-right: 20px;
+  padding: 20px;
+  background-color: red;
 }
 
 .joiningpara h2 {
@@ -510,33 +525,29 @@ p {
   text-align: start;
   width: 35vw;
 }
+
 .joiningpara h3 {
   margin-top: 40px;
   font-size: 20px;
   font-weight: 300;
 }
 
-
 /* ------footer------ */
 
-
 footer {
-  background-color: #fdebeb;
+  background-color: #37dc00;
   color: white;
   height: 30vh;
-  padding: 20px 0;
+  width: 100%;
   display: flex;
+  overflow: hidden;
   justify-content: space-around;
 }
 
-
 .footer-section {
-  flex: 1;
-  /* background-color: red; */
-  padding: 0 20px;
-  padding-left: 60px;
-  padding-right: 60px;
-  
+  text-align: center;
+  background-color: red;
+  overflow: hidden;
 }
 
 .footer-section h2 {
@@ -547,25 +558,23 @@ footer {
 .footer-section p {
   margin-top: 10px;
   font-size: 0.9em;
-  
 }
+
 footer p {
   margin-top: 10px;
   font-size: 0.9em;
   width: 50vh;
   padding-top: 30px;
-  margin-left: 30px;
   font-size: 16px;
   font-weight: 200;
-  /* background: #000; */
+  background: #000;
 }
 
-#footer-sub{
+/* #footer-sub {
   display: flex;
-}
+} */
 
-
-#email{
+#email {
   border-radius: 5px;
   border: none;
   text-align: start;
@@ -573,7 +582,7 @@ footer p {
   height: 30px;
 }
 
-#emailbtn{
+#emailbtn {
   margin-left: 10px;
   width: 70px;
   background-color: rgb(236, 88, 88);
@@ -582,25 +591,25 @@ footer p {
   border-radius: 6px;
 }
 
-#emailbtn:hover{
+#emailbtn:hover {
   background-color: red;
   color: #fff;
 }
 
-#copyright{
+#copyright {
   /* background-color:blue; */
   text-align: center;
+  width: 100%;
 }
 
-#copyright h2{
+#copyright h2 {
   font-size: 15px;
   font-weight: 400;
 }
 
-
 /* -------about------- */
 
-#about{
+#about {
   width: auto;
   height: 40vh;
   background-color: red;
@@ -610,7 +619,7 @@ footer p {
   background-position: center;
 }
 
-#about h2{
+#about h2 {
   color: #fdebeb;
   padding-top: 18vh;
   padding-left: 18vh;
@@ -618,10 +627,9 @@ footer p {
   font-weight: 400;
 }
 
-
 /* ------end------ */
 
-#about-container{
+#about-container {
   /* background-color: red; */
   margin-left: 10vh;
   margin-right: 10vh;
@@ -630,25 +638,25 @@ footer p {
   margin-top: 8vh;
 }
 
-#about-container h1{
+#about-container h1 {
   text-align: center;
   padding-top: 5vh;
   font-weight: 400;
 }
 
-
-.sub-about{
+.sub-about {
   display: flex;
   margin-top: 10vh;
   justify-content: space-between;
   /* background: gold; */
 }
 
-.sub-about img{
+.sub-about img {
   width: 400px;
   margin-left: 20vh;
 }
-.sub-about h2{
+
+.sub-about h2 {
   font-size: 24px;
   font-weight: 400;
   width: 400px;
@@ -656,15 +664,15 @@ footer p {
   margin-right: 10vh;
 }
 
-.sub-about p{
+.sub-about p {
   font-size: 17px;
-  text-align:start;
+  text-align: start;
   font-weight: 200;
 }
 
 /* ------ */
 
-#about-piller{
+#about-piller {
   /* background-color: red; */
   margin-left: 10vh;
   margin-right: 10vh;
@@ -673,11 +681,10 @@ footer p {
   margin-top: 8vh;
 }
 
-#about-piller h1{
+#about-piller h1 {
   padding-top: 10px;
   text-align: center;
   font-weight: 400;
-  
 }
 
 .piller {
@@ -694,7 +701,7 @@ footer p {
   transform: translate(-10px);
 } */
 
-.sub-piller{
+.sub-piller {
   margin-top: 8vh;
   background-color: rgb(219, 244, 239);
   border-radius: 9px;
@@ -705,30 +712,29 @@ footer p {
   color: #fff;
 }
 
-
-
 .sub-piller h2 {
   /* text-align: center; */
   font-weight: 300;
   font-size: 26px;
-  
 }
+
 .sub-piller p {
   /* padding-left: 20px;
   padding-right: 20px; */
   text-align: start;
 }
+
 /* -----end------ */
 
 /* ----contact--- */
 
-#contact{
+#contact {
   margin-top: 10vh;
   display: flex;
   justify-content: space-evenly;
 }
 
-.contact{
+.contact {
   padding-top: 30px;
   /* background-color: red; */
   padding-left: 20px;
@@ -736,25 +742,25 @@ footer p {
   height: 30vh;
 }
 
-.contact h6{
+.contact h6 {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 300;
 }
-.contact h4{
+
+.contact h4 {
   font-size: 22px;
   font-weight: 400;
 }
 
-.contact i{
+.contact i {
   gap: 20px;
   margin-right: 20px;
 }
 
-
 /* -----------register/login-------- */
 
-#login-container{
+#login-container {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
   margin-top: 10vh;
@@ -766,27 +772,26 @@ footer p {
   height: 560px;
   margin-left: 36%;
   margin-bottom: 10vh;
-  
 }
 
-
-.login-top{
+.login-top {
   /* background: #000; */
-  background-image:url(./pic/aboutbg.jpg);
+  background-image: url(./pic/aboutbg.jpg);
   height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-size: 300px 100px; */
   background-position: center;
   display: flex;
-  
 }
+
 .login-top p {
   color: #fff;
   padding-left: 50px;
   font-size: 20px;
 }
-#signimg{
+
+#signimg {
   width: 40px;
   height: 40px;
   border-left: 10px;
@@ -796,7 +801,6 @@ footer p {
   /* mix-blend-mode: color; */
   /* background-color: #f0f0f0; */
 }
-
 
 .signin-container {
   max-width: 400px;
@@ -833,7 +837,6 @@ h2 {
 
 .button-group {
   margin-top: 20px;
-  
 }
 
 .loginbtn[type="submit"] {
@@ -864,4 +867,118 @@ button[type="submit"]:hover {
 
 .forgot-password a:hover {
   text-decoration: underline;
+}
+
+/* ---------responsive------------ */
+
+/* --------laptop 1080px screen----------- */
+
+/* ----------responsive------------------- */
+
+@media (max-width: 1024px) {
+  /* CSS rules for screen width 1024px or less */
+  nav {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .conatiner-sub-main {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 18px;
+  }
+  .card {
+    width: 266px;
+    flex-wrap: wrap;
+  }
+  .card img {
+    width: 262px;
+  }
+
+  #whoimg {
+    width: 480px;
+    object-fit: contain;
+  }
+
+  .support-sec {
+    padding-right: 30px;
+  }
+
+  .serve2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* --------------- */
+
+@media (max-width: 768px) {
+  /* CSS rules for screen width 768px or less */
+  .card {
+    width: 266px;
+    height: 60vh;
+    flex-wrap: wrap;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+  .card img {
+    width: 190px;
+  }
+
+  .joining img {
+    width: 159px;
+    height: 255px;
+  }
+  
+  #joining {
+    height:70vh;
+  }
+  .footer-section{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footer-sec{
+    background-color:blue;
+    padding-left: 20px;
+  }
+  #emailbtn{
+    margin-top: 14px;
+  }
+
+  footer p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .helpcard{
+    margin-right: 5vh;
+    height: 43vh;
+    width: 70vh;
+  }
+
+  #donatebtn{
+    margin-top: 10px;
+  }
+
+
+  #serve h1{
+    font-size: 30px;
+  }
+
+  .sub-serve h2{
+    width: 20px;
+  }
+
+}
+
+/* ------------------ */
+
+@media (max-width: 480px) {
+  /* CSS rules for screen width 480px or less */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
 }
