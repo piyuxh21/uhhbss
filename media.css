@@ -1,0 +1,361 @@
+@media only screen and (min-width: 1400px) {
+  /* CSS rules for large screens */
+  nav {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .subcontainer{
+    height: 70vh;
+  }
+  .subcontainer h1{
+    padding-top: 30vh;
+    font-size: 40px;
+  }
+  #element{
+    font-size: 50px;
+  }
+  #container-main{
+    /* background-color: red; */
+    height: 84vh;
+    margin-top: 4vh;
+  }
+  #container-main h1{
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 34px;
+  }
+
+  /* .conatiner-sub-main {
+    background-color: gold;
+  } */
+
+  .card{
+    /* background-color: gold; */
+    width:331px
+  }
+
+  .card img{
+    width: 330px;
+  }
+
+  #support{
+    /* background: gold; */
+    height: 60vh;
+    margin-top: 10vh;
+  }
+  #hero{
+    gap: 38vh;
+  }
+
+  .about-container h1{
+    font-size: 45px;
+    padding-top: 10vh;
+  }
+  .about-container h3{
+    font-size: 22px;
+  }
+  .about-container p{
+    font-size: 20px;
+  }
+
+  #about-img{
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    padding-left: 70px;
+  }
+
+  .helpcard{
+    height: 37vh;
+    width: 88vh;
+  }
+  #joining{
+    /* background-color: gold; */
+    height: 85vh;
+    margin-bottom: 8vh;
+  }
+
+  .join-title h1{
+    font-size: 50px;
+  }
+  .join-title p{
+    font-size: 21px;
+  }
+
+  .join-img1 img{
+    width: 252px;
+    height: 342px;
+  }
+  .join-img2 img{
+    width: 252px;
+    height: 342px;
+  }
+ 
+}
+
+
+@media only screen and (min-width: 1200px){
+  nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .conatiner-sub-main{
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+  }
+
+  .card{
+    /* background-color: gold; */
+    width:301px
+  }
+
+  .card img{
+    width: 280px;
+  }
+
+  #hero{
+    /* padding-left: 25px;
+    padding-right: 50px; */
+    background-color: gold;
+  }
+  .about-container{
+    background-color: red;
+    padding-top: 12vh;
+    
+  }
+}
+
+
+/* -------1023px------------------- */
+
+
+@media only screen and (min-width: 1024px){
+  nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .conatiner-sub-main{
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+  }
+
+  #container-main{
+    background-color: red;
+    padding-top: 8vh;
+    margin-top: 0px;
+  }
+
+  .card{
+    /* background-color: gold; */
+    width:289px
+  }
+
+  .card img{
+    width: 250px;
+  }
+
+  #hero{
+    /* padding-left: 25px;
+    padding-right: 50px; */
+    background-color: gold;
+    margin-top: 5vh;
+  }
+  .about-container{
+    background-color: red;
+    padding-top: 12vh;
+    
+  }
+
+  #counter{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #serve{
+    background-color: red;
+    margin-top: 5vh;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #serve h1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .serve2{
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10vh;
+  }
+
+  .subserve img{
+    width: 105px;
+  }
+
+  .helpcard{
+    height: 44vh;
+    width: 80vh;
+  }
+
+  #joining{
+    background-color: gold;
+    margin-top: 5vh;
+    height: 70vh;
+  }
+}
+
+
+/* -------------------------------- */
+
+
+@media only screen and (min-width: 768px){
+  nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #logo img{
+    width: 42px;
+  }
+
+  #container-main h1{
+    font-size: 24px;
+  }
+  .conatiner-sub-main{
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 20px;
+  }
+
+  .card{
+    background-color: gold;
+    width:301px;
+    height: 60vh;
+  }
+  .card img{
+    width: 175px;
+  }
+  .card h2{
+    font-size: 15px;
+  }
+  #about-img{
+    width: 260px;
+  }
+  #hero{
+    background-color: gold;
+    gap: 10vh;
+  }
+  .about-container{
+    padding-right: 30px;
+  }
+  .about-container h1{
+    background-color: gold;
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 8vh;
+  }
+
+  .about-container h3{
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .about-container p{
+    font-size: 14px;
+    margin-top: 2vh;
+    font-weight: 300;
+  }
+  #counter{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .coun1 img{
+    width: 40px;
+  }
+
+  .counter{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .subcoun h3 {
+    font-size: 15px;
+  }
+
+  #serve{
+    background-color: red;
+    margin-top: 5vh;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #serve h1{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .serve2{
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10vh;
+    align-items: center;
+  }
+
+  .subserve img{
+    width: 65px;
+    align-items: center;
+  }
+  .subserve h2 {
+    /* color: #f0f0f0; */
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .helpcard h1{
+    font-size: 23px;
+  }  
+  .helpcard p{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .helpcard{
+    width:78vh;
+    height:47vh;
+  }
+
+  #donatebtn {
+    width: 15vw;
+    border-radius: 7px;
+    margin-top: 2px;
+  }
+
+  #joining {
+    background-color: gold;
+    margin-top: 6vh;
+
+  }
+
+  .join-title h1{
+    /* background-color: blue; */
+    font-size: 25px;
+  }
+  .join-title p{
+    background-color: blue;
+    font-size: 15px;
+  }
+
+  .join-img1 img{
+    width: 163px;
+    height: 203px;
+  }
+  .join-img2 img{
+    width: 165px;
+    height: 203px;
+    padding-right: 20px;
+  }
+}
