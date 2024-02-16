@@ -58,25 +58,6 @@ nav img {
   /* background-color:black */
 }
 
-/* #btn1{
-    background: yellow;
-    width: 73px;
-    border:1.4px solid black;
-    margin-right: 10px;
-    margin-bottom: 4px;
-    border-radius: 12px;
-    background-color: transparent;
-} */
-
-/* #btn1 a {
-    color:rgb(47, 2, 2);
-    font-weight: 400;
-} */
-
-/* #links:hover{
-    background: #000;
-} */
-
 .menu-icon {
   width: 26px;
   margin-left: 7px;
@@ -112,7 +93,7 @@ nav img {
 }
 
 #container-main {
-  /* background-color:blue; */
+  /* background-color: blue; */
   /* flex: 1; */
   width: 100%;
   height: 100vh;
@@ -128,16 +109,8 @@ nav img {
   justify-content: space-evenly;
   /* background-color: red; */
   margin-top: 10vh;
-  height: 80vh;
+  /* height: 80vh; */
 }
-
-/* #services {
-  background-color: blue;
-}
-
-#services img {
-  width: 400px;
-} */
 
 .card {
   width: 300px;
@@ -276,65 +249,52 @@ p {
 
 /* ----------services--------------- */
 
-#support {
-  /* background-color: rgb(236, 236, 249); */
-  border-radius: 5px;
-  background-color: gold;
-  height: 85vh;
+#hero {
   width: 100%;
-  margin-top: 20vh;
-  margin-bottom: 10vh;
-  overflow: hidden;
-  /* padding-left: 20px;
-  padding-right: 20px; */
-}
-
-.support {
+  height: 80vh;
   display: flex;
-  padding-top: 12vh;
-  /* justify-content: space-between; */
-  /* width: 100%;
-  height: 100vh; */
-  background-color: blue;
-  /* overflow: hidden; */
-  padding-right: 20px;
+  margin-top: 15vh;
+  overflow: hidden;
+  /* background-color: gold; */
+  justify-content: space-around;
 }
-
-#whoimg{
-  width: 600px;
-  height: auto;
-  padding-left: 20px;
-}
-
-
-.support-sec {
-  /* background-color: blue; */
-  padding-left: 50px;
-  text-align: start;
-  flex-wrap: nowrap;
-}
-
-.support-sec h2 {
-  font-size: 40px;
-}
-
-.support-sec p {
-  margin-top: 20px;
-  font-size: 20px;
+.about-container h1 {
+  font-weight: 400;
+  font-size: 45px;
   text-align: center;
-  /* background-color: red; */
-  text-align: start;
-  /* width: 35vw; */
+}
+.about-container h3 {
+  font-weight: 400;
+  font-size: 21px;
+  padding-top: 15px;
+}
+.about-container p {
+  font-size: 18px;
+  padding-top: 15px;
 }
 
-.support-sec h3 {
-  margin-top: 40px;
-  font-size: 20px;
-  font-weight: 300;
+.about-container{
+  /* background-color: gold; */
 }
 
+#about-img {
+  padding-left: 40px;
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+#btnn {
+  border: none;
+  margin-top: 20px;
+  border-radius: 9px;
+  width: 10vw;
+  height: 6vh;
+  background-color: #0056b3;
+}
 
-
+#btnn a {
+  color: #fff;
+}
 
 /* ---counter css----- */
 
@@ -378,10 +338,11 @@ p {
 
 #serve {
   /* background: gold; */
-  height: 85vh;
+  height: 65vh;
   width: 100%;
   margin-top: 20vh;
-  /* overflow: hidden; */
+  overflow: hidden;
+  /* flex-wrap: nowrap; */
 }
 
 #serve h1 {
@@ -393,13 +354,12 @@ p {
 
 .serve2 {
   display: flex;
-  justify-content: space-evenly;
-  /* background: blue; */
-  margin-top: 30px;
+  background-color: gold;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
   overflow: hidden;
-  height: 50vh;
-  gap: 30px;
-  width: 100%;
+
 }
 
 .subserve img {
@@ -408,7 +368,7 @@ p {
 
 .subserve {
   /* background: red; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .subserve h2 {
@@ -427,7 +387,6 @@ p {
 
 #help {
   margin-top: 20vh;
-  /* background-color:red; */
   height: 90vh;
   width: 100%;
   background-image: url(./pic/section-bg2.jpg);
@@ -483,59 +442,58 @@ p {
 
 /* -----------end---------
 */
-
 #joining {
-  /* background-color: rgb(236, 236, 249); */
-  border-radius: 5px;
-  /* background-color: gold; */
-  height: 85vh;
   width: 100%;
-  margin-top: 20vh;
-  margin-bottom: 10vh;
-  overflow: hidden;
-}
-
-.joining {
+  height: 80vh;
+  /* background-color: gold; */
+  margin-top: 15vh;
   display: flex;
-  padding-top: 12vh;
+  /* align-items: center; */
+  /* gap: 25px; */
+  overflow: hidden;
   justify-content: space-evenly;
 }
 
-.joining img {
-  width: 240px;
-  height: 300px;
+.join-title {
+  /* background-color: blue; */
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 70px;
+}
+
+.join-title h1 {
+  padding-top: 18vh;
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+
+.join-title p {
+  font-size: 17px;
+}
+
+.join-img1 img{
+  padding-top: 15vh;
+  width: 220px;
+  height: 225px;
   object-fit: cover;
-  border-radius: 4px;
+  /* object-fit: contain; */
+  margin-right: 10px;
+}
+.join-img2 img{
+  padding-top: 15vh;
+  width: 220px;
+  height: 225px;
+  object-fit: cover;
 }
 
-.joiningpara {
-  padding: 20px;
-  /* background-color: red; */
-}
 
-.joiningpara h2 {
-  font-size: 40px;
-}
 
-.joiningpara p {
-  margin-top: 20px;
-  font-size: 20px;
-  text-align: center;
-  /* background-color: red; */
-  text-align: start;
-  width: 35vw;
-}
-
-.joiningpara h3 {
-  margin-top: 40px;
-  font-size: 20px;
-  font-weight: 300;
-}
 
 /* ------footer------ */
 
 footer {
-  /* background-color: #37dc00; */
+  background-color: #282928;
   color: white;
   height: 30vh;
   width: 100%;
@@ -553,11 +511,19 @@ footer {
 .footer-section h2 {
   font-size: 1.5em;
   font-weight: 500;
+  color: #fff;
 }
 
 .footer-section p {
   margin-top: 10px;
   font-size: 0.9em;
+  color: #fff;
+}
+
+.footer-section a {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #fff;
 }
 
 footer p {
@@ -567,13 +533,13 @@ footer p {
   padding-top: 30px;
   font-size: 16px;
   font-weight: 200;
+  color: #fff;
   /* background: #000; */
 }
 
-/* #footer-sub {
-  display: flex;
-} */
-
+.footer-sec h2 {
+  color: #ffffff;
+}
 #email {
   border-radius: 5px;
   border: none;
@@ -875,38 +841,8 @@ button[type="submit"]:hover {
 
 /* ----------responsive------------------- */
 
-@media (max-width: 1024px) {
-  /* CSS rules for screen width 1024px or less */
-  nav {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .conatiner-sub-main {
-    padding-left: 30px;
-    padding-right: 30px;
-    gap: 18px;
-  }
-  .card {
-    width: 266px;
-    flex-wrap: wrap;
-  }
-  .card img {
-    width: 262px;
-  }
-
-  #whoimg {
-    width: 480px;
-    object-fit: contain;
-  }
-
-  .support-sec {
-    padding-right: 30px;
-  }
-
-  .serve2 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+@media only screen and (max-width: 600px) {
+  /* CSS rules for small screens */
 }
 
 /* --------------- */
@@ -930,20 +866,20 @@ button[type="submit"]:hover {
     width: 159px;
     height: 255px;
   }
-  
+
   #joining {
-    height:70vh;
+    height: 70vh;
   }
-  .footer-section{
+  ----------- .footer-section {
     padding-left: 30px;
     padding-right: 30px;
   }
 
-  .footer-sec{
-    background-color:blue;
+  .footer-sec {
+    background-color: blue;
     padding-left: 20px;
   }
-  #emailbtn{
+  #emailbtn {
     margin-top: 14px;
   }
 
@@ -952,25 +888,23 @@ button[type="submit"]:hover {
     padding-right: 20px;
   }
 
-  .helpcard{
+  .helpcard {
     margin-right: 5vh;
     height: 43vh;
     width: 70vh;
   }
 
-  #donatebtn{
+  #donatebtn {
     margin-top: 10px;
   }
 
-
-  #serve h1{
+  #serve h1 {
     font-size: 30px;
   }
 
-  .sub-serve h2{
+  .sub-serve h2 {
     width: 20px;
   }
-
 }
 
 /* ------------------ */
