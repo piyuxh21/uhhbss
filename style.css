@@ -279,7 +279,7 @@ p {
 
 #about-img {
   padding-left: 40px;
-  width: 400px;
+  width: 600px;
   height: 400px;
   object-fit: contain;
 }
@@ -354,7 +354,7 @@ p {
 
 .serve2 {
   display: flex;
-  background-color: gold;
+  /* background-color: gold; */
   align-items: center;
   justify-content: space-around;
   gap: 20px;
@@ -486,6 +486,8 @@ p {
   height: 225px;
   object-fit: cover;
 }
+
+
 
 
 
@@ -910,6 +912,14 @@ button[type="submit"]:hover {
 /* ------------------ */
 
 @media (max-width: 480px) {
+  /* CSS rules for screen width 480px or less */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1440px) {
   /* CSS rules for screen width 480px or less */
   .menu-icon {
     display: block;
