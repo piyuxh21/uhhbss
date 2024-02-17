@@ -97,7 +97,7 @@ nav img {
   /* flex: 1; */
   width: 100%;
   height: 100vh;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 #container-main h1 {
@@ -110,6 +110,7 @@ nav img {
   /* background-color: red; */
   margin-top: 10vh;
   /* height: 80vh; */
+  overflow: hidden;
 }
 
 .card {
@@ -153,6 +154,7 @@ p {
 
 .card img {
   width: 300px;
+  /* height: auto; */
 }
 
 /* css of about */
@@ -257,6 +259,7 @@ p {
   overflow: hidden;
   /* background-color: gold; */
   justify-content: space-around;
+  align-items: center;
 }
 .about-container h1 {
   font-weight: 400;
@@ -338,7 +341,7 @@ p {
 
 #serve {
   /* background: gold; */
-  height: 65vh;
+  height: 85vh;
   width: 100%;
   margin-top: 20vh;
   overflow: hidden;
@@ -456,8 +459,8 @@ p {
 
 .join-title {
   /* background-color: blue; */
-  padding-left: 40px;
-  padding-right: 40px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
   margin-right: 70px;
 }
 
@@ -837,92 +840,4 @@ button[type="submit"]:hover {
   text-decoration: underline;
 }
 
-/* ---------responsive------------ */
 
-/* --------laptop 1080px screen----------- */
-
-/* ----------responsive------------------- */
-
-@media only screen and (max-width: 600px) {
-  /* CSS rules for small screens */
-}
-
-/* --------------- */
-
-@media (max-width: 768px) {
-  /* CSS rules for screen width 768px or less */
-  .card {
-    width: 266px;
-    height: 60vh;
-    flex-wrap: wrap;
-  }
-
-  .card h2 {
-    font-size: 20px;
-  }
-  .card img {
-    width: 190px;
-  }
-
-  .joining img {
-    width: 159px;
-    height: 255px;
-  }
-
-  #joining {
-    height: 70vh;
-  }
-  ----------- .footer-section {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .footer-sec {
-    background-color: blue;
-    padding-left: 20px;
-  }
-  #emailbtn {
-    margin-top: 14px;
-  }
-
-  footer p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .helpcard {
-    margin-right: 5vh;
-    height: 43vh;
-    width: 70vh;
-  }
-
-  #donatebtn {
-    margin-top: 10px;
-  }
-
-  #serve h1 {
-    font-size: 30px;
-  }
-
-  .sub-serve h2 {
-    width: 20px;
-  }
-}
-
-/* ------------------ */
-
-@media (max-width: 480px) {
-  /* CSS rules for screen width 480px or less */
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-  }
-}
-
-@media (max-width: 1440px) {
-  /* CSS rules for screen width 480px or less */
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-  }
-}
