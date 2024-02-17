@@ -1,204 +1,225 @@
-@media only screen and (min-width: 1200px) {
+@media screen and (max-width: 1400px) {
   nav {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .conatiner-sub-main {
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 20px;
-  }
-
-  .card {
-    /* background-color: gold; */
-    width: 301px;
-  }
-
-  .card img {
-    width: 280px;
-  }
-
-  #hero {
-    /* padding-left: 25px;
-    padding-right: 50px; */
-    /* background-color: gold; */
-  }
-
-  #hero img {
-    width: 500px;
-    height: 400px;
-  }
-  .about-container {
+    padding-left: 30px;
+    padding-right: 30px;
     /* background-color: red; */
-    padding-top: 12vh;
-  }
-}
-
-/* ----------------- */
-
-@media only screen and (min-width: 992px) {
-  nav {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .conatiner-sub-main {
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 30px;
   }
 
   #container-main {
     /* background-color: red; */
-    padding-top: 8vh;
-    margin-top: 0px;
+  }
+  #container-main h1 {
+    font-size: 25px;
+    padding-top: 1rem;
+    font-weight: 400;
   }
 
-  .card {
-    /* background-color: gold; */
+  .conatiner-sub-main {
+    /* background-color: red; */
+    flex: 1;
   }
 
-  .card img {
-    width: 270px;
-  }
+  /* .card{
+    background-color: red;
+  } */
 
   #hero {
-    /* padding-left: 25px;
-    padding-right: 50px; */
-    /* background-color: gold; */
-    margin-top: 5vh;
-  }
-
-  #hero img {
-    width: 400px;
-    height: 400px;
-  }
-  .about-container {
     /* background-color: red; */
-    padding-top: 12vh;
   }
 
-  #counter {
-    padding-left: 20px;
-    padding-right: 20px;
+  .about-container h1 {
+    margin-top: 10vh;
   }
 
-  #serve {
-    /* background-color: red; */
-    margin-top: 5vh;
-    align-items: center;
-    width: 100%;
+  #about-img {
+    width: 380px;
+    object-fit: contain;
+    margin-top: 10vh;
   }
+
+  /* #serve{
+    background-color: red;
+  } */
 
   #serve h1 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 400;
   }
 
   .serve2 {
-    padding-left: 40px;
-    padding-right: 40px;
-    gap: 10vh;
+    /* background-color: rgb(38, 255, 0); */
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-top: 10vh;
   }
 
-  .subserve img {
-    width: 105px;
-  }
-
-  .helpcard {
-    height: 44vh;
-    width: 80vh;
-  }
-
-  #joining {
-    /* background-color: gold; */
-    margin-top: 5vh;
-    height: 70vh;
+  .subserve {
+    /* background-color: red; */
+    object-fit: cover;
   }
 }
 
-/* --------------------- */
-@media only screen and (min-width: 768px) {
-  nav {
-    padding-left: 50px;
-    padding-right: 50px;
+@media screen and (max-width: 1200px) {
+  #container-main {
+    /* background-color: red; */
+    /* padding-left: 5vh;
+    padding-right: 5vh; */
   }
-  #logo img {
-    width: 42px;
+  .about-container h1 {
+    margin-top: 10vh;
+    /* background-color: red; */
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    /* background-color: red; */
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
-  #container-main h1 {
-    font-size: 24px;
-    padding-top: 5vh;
+  .card {
+    /* background-color: red; */
+    width: 230px;
+    height: 52vh;
   }
-  .conatiner-sub-main {
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 20px;
+
+  .card img {
+    width: 225px;
+  }
+
+  #hero {
+    /* background-color: red; */
+    margin-top: 5vh;
+  }
+
+  #about-img {
+    width: 330px;
+  }
+
+  .about-container h1 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .about-container h3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-top: 15px;
+  }
+  .about-container p {
+    font-size: 1rem;
+    padding-top: 15px;
+  }
+  .serve2 {
+    /* background-color: red; */
+    padding-left: 11vh;
+    padding-right: 11vh;
+    margin-top: 10vh;
+  }
+
+  .helpcard {
+    /* background-color: red; */
+    height: 230px;
+  }
+
+  .helpcard h1 {
+    font-size: 1.4rem;
+  }
+  .helpcard p {
+    font-size: 1rem;
+  }
+
+  #donatebtn {
+    width: 150px;
+    margin-top: 5px;
+  }
+
+  #joining {
+    /* background-color: red; */
+    height: 80vh;
+    margin-bottom: 2vh;
+  }
+
+  .join-title h1 {
+    font-size: 2.2rem;
+  }
+
+  .join-title {
+    padding-left: 40px;
+  }
+
+  .join-img2 {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: red;
+  }
+
+  .card {
+    /* background-color: red; */
+    width: 180px;
+    height: 52vh;
+  }
+
+  .card img {
+    width: 180px;
+  }
+
+  .card h2 {
+    font-size: 1.1rem;
   }
 
   #container-main {
     /* background-color: red; */
-    margin-top: 7vh;
-    height: 100vh;
+    height: 85vh;
   }
 
-  .card {
-    /* background-color: gold; */
-    width: 301px;
-    height: 50vh;
-  }
-  .card img {
-    width: 228px;
-  }
-  .card h2 {
-    font-size: 15px;
-  }
   #about-img {
-    width: 372px;
-    height: 537px;
+    width: 250px;
   }
-  #hero {
-    /* background-color: gold; */
-    gap: 10vh;
-    height: 80vh;
+  .about-container h1 {
+    font-size: 1.5rem;
+  }
+  .about-container h3 {
+    font-size: 0.9rem;
+    margin-left: 5vh;
+  }
+  .about-container p {
+    font-size: 0.8rem;
+    margin-left: 5vh;
   }
 
   .about-container {
-    padding-right: 30px;
-  }
-  .about-container h1 {
-    /* background-color: gold; */
-    font-size: 37px;
-    font-weight: 300;
-    /* padding-top: 18vh; */
+    float: right;
+    margin-top: 5vh;
   }
 
-  .about-container h3 {
-    font-size: 16px;
-    font-weight: 300;
+  #btnn {
+    margin-left: 5vh;
   }
-  .about-container p {
-    font-size: 14px;
-    margin-top: 2vh;
-    font-weight: 300;
-  }
+
   #counter {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30vh;
   }
 
   .coun1 img {
+    /* background-color: red; */
     width: 40px;
   }
 
   .counter {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 1.5rem;
   }
   .subcoun h3 {
-    font-size: 15px;
+    font-size: 0.9rem;
+    font-weight: 350;
   }
 
   #serve {
@@ -210,7 +231,7 @@
 
   #serve h1 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .serve2 {
@@ -222,12 +243,11 @@
   }
 
   .subserve img {
-    width: 65px;
-    align-items: center;
+    width: 75px;
   }
   .subserve h2 {
     /* color: #f0f0f0; */
-    font-size: 16px;
+    font-size:20px;
     text-align: center;
     font-weight: 500;
   }
@@ -242,40 +262,75 @@
 
   .helpcard {
     width: 78vh;
-    height: 45vh;
+    height: 39vh;
   }
 
   #donatebtn {
-    width: 15vw;
+    width: 17vw;
     border-radius: 7px;
     margin-top: 2px;
   }
 
   #joining {
     /* background-color: gold; */
-    margin-top: 6vh;
+    /* margin-top: 6vh; */
+    height: 75vh;
   }
 
   .join-title h1 {
     /* background-color: blue; */
-    font-size: 35px;
+    font-size: 2rem;
   }
   .join-title p {
     /* background-color: blue; */
-    font-size: 18px;
+    font-size: 1rem;
     margin-bottom: 7vh;
   }
 
   .join-img1 img {
     width: 210px;
-    height: 263px;
+    height: 183px;
   }
   .join-img2 img {
-    width: 220px;
-    height: 261px;
+    width: 160px;
+    height: 181px;
     padding-right: 13px;
   }
+  footer p{
+    /* background-color: red; */
+    font-size: 0.9rem;
+    width: 110px;
+
+  }
+
+
+  .footer-section h2{
+    background-color: rgb(217, 181, 181);
+    font-size: 1rem;
+    color: #000;
+    border-radius: 9px;
+    width: 100px;
+  }
+
+  .footer-sec h2 {
+    /* background-color: rgb(217, 181, 181); */
+    font-size: 1rem;
+    color: #fff4f4;
+    font-weight: 400;
+    border-radius: 9px;
+    width: 100px;
+  }
+
+  .footer-sub {
+    display: inline-block;
+  }
+
+  #emailbtn{
+    margin-top: 15px;
+  }
+
 }
+
 
 @media only screen and (max-width: 600px) {
   /* CSS rules for extra small devices */
@@ -346,10 +401,11 @@
   #counter {
     display: inline-block;
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
     object-fit: cover;
     align-items: center;
+    overflow: hidden;
   }
 
   .coun1 {
@@ -447,171 +503,4 @@
     justify-content: start;
     line-height: 5vh;
   }
-}
-
-/* ------------------- */
-@media only screen and (max-width: 900px) {
-  /* CSS rules for extra small devices */
-  #container {
-    height: 60vh;
-  }
-
-  .subcontainer h1 {
-    padding-top: 25vh;
-  }
-
-  #container-main {
-    height: 90vh;
-    /* background-color: red; */
-    margin-top: 5vh;
-  }
-
-  #container-main h1 {
-    font-size: 23px;
-    padding-top: 2vh;
-    font-weight: 400;
-  }
-
-
-  .card {
-    height: 55vh;
-    width: auto;
-    margin-top: 2vh;
-    column-gap: 20px;
-  }
-
-  .card img {
-    width: 100%;
-  }
-
-  /* ----------about----------- */
-  #hero {
-    display: flex;
-    height: 90vh;
-    margin-top: 5vh;
-    /* padding-right: 30vh; */
-  }
-
-  #about-img {
-    width: 300px;
-    height: 371px;
-    /* padding: 15vh; */
-  }
-
-  .about-container h1{
-    padding-top: 10vh;
-  }
-  .about-container h3 {
-    font-size: 15px;
-    text-align: start;
-  }
-  .about-container p {
-    font-size: 13px;
-  }
-  .about-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  #btnn {
-    width: 150px;
-  }
-  /* ------------counter----------- */
-  #counter {
-    display: flex;
-    height: 28vh;
-    /* width: 100%; */
-    background-size: cover;
-    object-fit: cover;
-    align-items: center;
-  }
-
-  .coun1 {
-    /* background-color: gold; */
-    width: 40vw;
-    /* height: 24vh; */
-  }
-/* ---------------serve----------- */
-  #serve {
-    height: 80vh;
-    width: 100%;
-    margin-top: 5vh;
-  }
-
-  .serve2 {
-    display: flex;
-    align-items: center;
-  }
-  .subserve {
-    /* background-color: red; */
-  }
-  .subserve img {
-    width: 80px;
-    margin-left: 11vh;
-  }
-
-  .subserve h2 {
-    margin-top: -3vh;
-    font-size: 18px;
-  }
-  .subserve p {
-    line-height: 20px;
-    margin-top: 7vh;
-  }
-  /* --------------help------------------ */
-  #help {
-    margin-top: 2vh;
-    height: 80vh;
-  }
-
-  .helpcard {
-    margin-right: 5vh;
-    height: 45vh;
-    width: 77vh;
-  }
-
-  .helpcard h1 {
-    font-size: 24px;
-  }
-  .helpcard p {
-    font-size: 14px;
-  }
-/* ------------joining-------------- */
-  #joining {
-    /* background-color: red; */
-    width: 100%;
-    height: 90vh;
-    margin-top: 3vh;
-    margin-bottom: 8vh;
-  }
-
-  .join-title h1 {
-    text-align: center;
-    padding-top: 13vh;
-    font-size: 32px;
-  }
-  .join-title p {
-    /* text-align: center; */
-    padding-top: 3vh;
-    font-size: 18px;
-  }
-
-  .join-img1 img {
-    padding-top: 18vh;
-    width: 180px;
-    height: 210px;
-    padding-left: 6vh;
-    /* object-fit: contain; */
-   
-  }
-  .join-img2 img {
-    padding-top: 18vh;
-    width: 188px;
-    height: 210px;
-    padding-left: 6vh;
-    object-fit: cover;
-  }
-  /* ----------footer------------ */
-
-
-
 }
